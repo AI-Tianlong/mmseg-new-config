@@ -4,7 +4,7 @@ Hello~ 各位社区大佬们。
 目前，需要招募几位同学，优先把数据集的config迁移完毕，以供大家在模型迁移时使用。  
 如有想法，可随时联系群内AI-Tianlong
 
-任务领取以一个完整的模型config为单位：
+任务领取以一个完整的模型config为单位，请在群内接龙，查看是否有重复领取：
 - `configs_new/_base_/models/deeplabv3.py`
 - `configs_new/deeplabv3下`
   - `xxxxxxxxxxxxxxxxxxxx.py`
