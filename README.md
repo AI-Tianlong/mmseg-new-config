@@ -36,7 +36,9 @@ git checkout -b AI-Tianlong/support_potsdam_new_config
 
 # 3 测试迁移后配置文件的正确性
 这一步需要在对应的configs下，根据README.md，下载对应的权重，准备对应的数据集，完成精度对齐测试，以验证配置文件的正确性。
+并且需要将configs下
 # 4 在 Github 中向 mmsegmentation 提交 PR 
+这一步，可以参考：[在 Github 中向 mmsegmentation 提交 PR](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/zh_cn/advanced_guides/contribute_dataset.md#38-%E5%9C%A8-github-%E4%B8%AD%E5%90%91-mmsegmentation-%E6%8F%90%E4%BA%A4-pr)  
 
 # 注意事项
 任务领取以一个完整的模型config为单位，请在群内接龙，查看是否有重复领取：
@@ -46,5 +48,6 @@ git checkout -b AI-Tianlong/support_potsdam_new_config
   - `xxxxxxxxxxxxxxxxxxxx.py`
   - `xxxxxxxxxxxxxxxxxxxx.py`
   - `xxxxxxxxxxxxxxxxxxxx.py`
-  - `xxxxxxxxxxxxxxxxxxxx.py` 
+  - `xxxxxxxxxxxxxxxxxxxx.py`
+  - 包括说明文件！！！即configs下的README.md也需要放过来
 <img src='https://github.com/AI-Tianlong/mmseg-new-config/assets/50650583/c4f77d65-6cbe-4f86-8a0a-b391e7419c05' alt="微信群聊二维码" width="50%">
