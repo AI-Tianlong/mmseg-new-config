@@ -34,6 +34,10 @@ git checkout -b AI-Tianlong/support_potsdam_new_config
 如我要迁移`configs/_base_/datasets/potsdam.py`，那么我new config的位置应为：`configs_new/_base_/datasets/potsdam.py`。  
 ![image](https://github.com/AI-Tianlong/mmseg-new-config/assets/50650583/ce7d0a05-da8f-4ad9-a675-cbee18cc5419)
 
+# 3 测试迁移后配置文件的正确性
+这一步需要在对应的configs下，根据README.md，下载对应的权重，准备对应的数据集，完成精度对齐测试，以验证配置文件的正确性。
+# 4 在 Github 中向 mmsegmentation 提交 PR 
+
 # 注意事项
 任务领取以一个完整的模型config为单位，请在群内接龙，查看是否有重复领取：
 - `configs_new/_base_/models/deeplabv3.py`
